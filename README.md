@@ -109,7 +109,7 @@ and the WiFi network "ArkBox - Welcome Aboard!" will be visible.**
 -----
 
 10. Using a standard web-browser, navigate to:  
-'''arkbox.lan'''  
+```arkbox.lan```  
 **Welcome Aboard!**  
 
 -----
