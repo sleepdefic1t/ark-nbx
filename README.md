@@ -63,6 +63,10 @@ Address: **arkbox.lan**  
 - Make sure you are sharing/bridging your internet connection via usb-cable with your RPi.
 - Installation will take about 10-minutes.
 
+### Requirements
+- Git  
+```sudo apt-get install git```
+
 # Installation:   
 
 1. Connect to your RPi in "headless" or SSH mode.  
