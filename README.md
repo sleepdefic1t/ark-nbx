@@ -5,14 +5,32 @@
 
 -----
 
-Address: **arkbox.lan**  
+### What is ArkBox
+
+ArkBox is an network box for communication and sharing files offline.  
+It is inspired by the spirit of pirate radio,  
+early hackers (Stallman, Draper, Gosper, Woz, etc),  
+and--(per [*levy*](http://www.stevenlevy.com/))--the  **Hacker Ethic**  
+1. Access to computers—and anything which might teach you something about the way the world works—should be unlimited and total. Always yield to the Hands-on Imperative!
+2. All information should be free.
+3. Mistrust authority—promote decentralization.
+4. Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race or position.
+5. You can create art and beauty on a computer.
+6. Computers can change your life for the better.  
+
+Based on [**PirateBox**](https://piratebox.cc/) by [**David Darts**](https://daviddarts.com/), 
+ArkBox is a FOSS project, GPL3 compatible and MIT Licensed.
+
+-----
+### Screenshot  
+Address: **arkbox.lan**  
 <img src="https://github.com/sleepdefic1t/ark-nbx/blob/master/screenshot.png" width="500">  
 **Welcome Aboard!**  
 
 -----
 
 # Wiring  
-## RPi-Only Wiring:  
+## Raspberry Pi-Only:  
 
 <img src="https://github.com/sleepdefic1t/ark-nbx/blob/master/rpizw.png" width="300">
 
