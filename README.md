@@ -127,9 +127,9 @@ to finish installation.
 
 -----
 
-### **'ArkBox - Welcome Aboard!' Wifi network not showing up.**  
+### **'ArkBox - Welcome Aboard!' WiFi network not showing up.**  
 There are many errors that can cause this,
-running ``sudo ./install.sh``` again,  
+running ```sudo ./install.sh``` again,  
 or trying another micro-usb cable or a 'class 10' microSD card  
 will usually fix this.  
 
