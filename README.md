@@ -22,9 +22,13 @@ Based on [**PirateBox**](https://piratebox.cc/) by [**David Darts**](https://dav
 ArkBox is a FOSS project, GPL3 compatible and MIT Licensed.
 
 -----
+
 ### Screenshot  
+
 Address: **arkbox.lan**  
+
 <img src="https://github.com/sleepdefic1t/ark-nbx/blob/master/screenshot.png" width="500">  
+
 **Welcome Aboard!**  
 
 -----
