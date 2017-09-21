@@ -1,0 +1,39 @@
+   _____         __            __________
+  /  _  \_______|  | __        \______   \ _______  ___
+ /  /_\  \_  __ \  |/ /  ______ |    |  _//  _ \  \/  /
+/    |    \  | \/    <  /_____/ |    |   (  <_> >    <
+\____|__  /__|  |__|_ \         |______  /\____/__/\_ \
+        \/           \/                \/            \/
+
+Website: https://ark.io		              Ark-Box Version:   0.1.0
+
+First Steps After Flashing
+
+1. Change password of ark user
+> passwd
+
+2. Enable Fake-Timeservice
+2.1 Set date and time
+# Disable network time sync
+> sudo timedatectl set-ntp false
+# Set time to "Mon May 23 17:42:00" (Format: CCYYMMDD hhmm)
+> sudo date -s "20170523 1742"
+> cd /opt/arkbox && sudo ./bin/timesave.sh ./conf/arkbox.conf install
+2.2 Enable on startup
+> sudo systemctl enable timesave
+
+3. Enable the Kareha Image and Discussion Board
+> sudo /opt/arkbox/bin/board-autoconf.sh
+
+4. Enable USB thumb drive share OR extend SDCard
+USB: > sudo /opt/arkbox/rpi/bin/usb_share.sh
+SDCard: > sudo /opt/arkbox/rpi/bin/sdcard_share.sh
+
+5. Enable UPnP Media Server
+> sudo cp /etc/minidlna.conf /etc/minidlna.conf.bkp
+> sudo cp /opt/arkbox/src/linux.example.minidlna.conf /etc/minidlna.conf
+> sudo systemctl start minidlna
+> sudo systemctl enable minidlna
+
+6. Enable RealTimeClock timekeeping (needs DS3231 or 1307 RTC module!)
+> sudo systemctl enable rpi_hwclock

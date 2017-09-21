@@ -1,0 +1,10 @@
+[Unit]
+Description=ArkBox timesave service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/arkbox/bin/timesave.sh /opt/arkbox/conf/arkbox.conf recover
+TimeoutSec=20
+
+[Install]
+WantedBy=multi-user.target

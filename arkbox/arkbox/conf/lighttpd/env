@@ -1,0 +1,1 @@
+setenv.add-environment = ( "PYTHONPATH" => "/opt/arkbox/python_lib:/opt/arkbox/python_lib", "SHOUTBOX_GEN_HTMLFILE" => "/opt/arkbox/www/chat_content.html" , "SHOUTBOX_CHATFILE" => "/opt/arkbox/www/cgi-bin/data.pso" , "SHOUTBOX_CLIENT_TIMESTAMP" => "no" , "UPLOAD_PATH" => "/opt/arkbox/share/Shared" , "DISK_GEN_HTMLFILE" => "/opt/arkbox/www/diskusage.html" , )
