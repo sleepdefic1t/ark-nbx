@@ -36,8 +36,8 @@ Address: **arkbox.lan**
 # Preparation
 
 - Download **RASPBIAN STRETCH LITE** from https://www.raspberrypi.org/downloads/raspbian/
-- Or use the 'arkbox-core.img' provided in this repo
-- Use [**Etcher**](https://etcher.io) or your favorite method to copy Raspbian to a micro-sd card.  
+- Or use the 'arkbox-core.img' ***soon to be released***   
+- Use [**Etcher**](https://etcher.io) or your favorite method to copy Raspbian to a micro-sd card.  
 - Make sure you are sharing/bridging your internet connection via usb-cable with your RPi.
 - Installation will take about 10-minutes.
 
@@ -50,7 +50,7 @@ default password is: ```raspberry```
 **Be sure to change this afterwards.**  
 
 
-- if using 'arkbox-core.img'  
+- if using 'arkbox-core.img' ***soon to be released***   
 ```ssh ark@arkbox.local```  
 default password is: ```arkbox```   
 **Be sure to change this afterwards.**  
