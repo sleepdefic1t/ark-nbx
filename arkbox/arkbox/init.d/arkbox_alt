@@ -83,16 +83,9 @@ case "$1" in
 
     $ARKBOX/bin/hooks/hook_arkbox_start.sh  "$CONF"
 
-    echo "Empty tmp folder"
-    find   $ARKBOX/tmp/  -exec rm {} \;
-
     if [ "$CUSTOM_DIRLIST_COPY" = "yes" ]; then
       echo "Copy over directory design files"
       $ARKBOX/bin/distribute_files.sh $SHARE_FOLDER/Shared
-    fi
-
-    if [ "$PBX_JSON_GENERATION" = "yes" ]; then
-        $ARKBOX_FOLDER/bin/json_generation.sh  $CONF
     fi
 
     if [ "$DO_IW" = "yes" ] ; then

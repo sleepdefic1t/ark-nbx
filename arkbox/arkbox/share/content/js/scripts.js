@@ -43,7 +43,7 @@ $(document).ready(function() {
     });
 
     // Hides the welcome
-    $('#thanks').click(function() {
+    $('#dismiss').click(function() {
         $('#welcome').slideUp();
     });
 

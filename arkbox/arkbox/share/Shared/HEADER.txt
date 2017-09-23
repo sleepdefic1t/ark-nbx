@@ -9,7 +9,7 @@
 		<div id="logo">
 			<h1>
 				<a href="/">
-					<img src="/content/img/arkbox-logo-horizontal-white.png" alt="ArkBox" title="ArkBox - Welcome Aboard!">
+					<img src="/content/img/arkbox-logo-small.png" alt="ArkBox" title="ArkBox - Welcome Aboard!">
 				</a>
 			</h1>
 		</div>

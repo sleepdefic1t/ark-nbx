@@ -63,9 +63,6 @@ Address: **arkbox.lan**  
 - Make sure you are sharing/bridging your internet connection via usb-cable with your RPi.
 - Installation will take about 10-minutes.
 
-### Requirements
-- Git  
-```sudo apt-get install git```
 
 # Installation:   
 
@@ -83,12 +80,7 @@ default password is: ```arkbox```
 
 -----
 
-2. Update your RPi:    
-```sudo apt-get update```
-
------
-
-3. Expand your filesystem to use your whole microSD card:  
+2. Expand your filesystem to use your whole microSD card:  
 ```sudo raspi-config```  
 **Option 7: Advanced Options**  
 **Option A1: Expand Filesystem**  
@@ -97,44 +89,36 @@ or manually via ```sudo reboot```
 
 -----
 
-4. Clone this repo & 'cd' into it:  
+3. Clone this repo & 'cd' into it:  
 ```git clone https://github.com/sleepdefic1t/ark-nbx```  
 ```cd ark-nbx```
 
 -----
 
-5. Change permissions of the "arkbox" folder:  
+4. Change permissions of the "arkbox" folder:  
 ```sudo chmod -R 775 arkbox```  
 
 -----
 
-6. 'cd' to 'arkbox' and run the install.sh file:  
+5. 'cd' to 'arkbox' and run the install.sh file:  
 ```cd arkbox```  
 ```sudo ./install.sh```  
 - **Select 'Y/Yes' at each prompt to install and configure dependencies.**
 
 -----
 
-7. Wait about 1-minute after the install script finishes, then:   
-```sudo reboot```  
-
------
-
-8. Reconnect via SSH to your RPi after it powers back on,    
-wait an additional 1-2 minutes for configuration to complete, then:  
+6. Wait about 1-minute after the install script finishes, then:   
 ```sudo shutdown now```  
-- **After the green LED on your RPi stops flashing (~5-seconds),  
-it will power off.**
 
 -----
 
-9. Plug your RPi into a power source (ex: micro-usb power port).
+7. Plug your RPi into a power source (ex: micro-usb power port).
 - **Your ArkBox will power on,  
 and the WiFi network "ArkBox - Welcome Aboard!" will be visible.**  
 
 -----
 
-10. Using a standard web-browser, navigate to:  
+8. Using a standard web-browser, navigate to:  
 ```arkbox.lan```  
 **Welcome Aboard!**  
 
