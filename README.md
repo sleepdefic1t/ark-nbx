@@ -103,7 +103,6 @@ or manually via ```sudo reboot```
 5. 'cd' to 'arkbox' and run the install.sh file:  
 ```cd arkbox```  
 ```sudo ./install.sh```  
-- **Select 'Y/Yes' at each prompt to install and configure dependencies.**
 
 -----
 
