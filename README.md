@@ -149,3 +149,20 @@ will usually fix this.
 This is correct, it is a security measure.
 
 #
+
+
+## ToDo:
+- [ ] Implement Full Message/Discussion Board  
+- [ ] Add mesh/network/node connectivity
+- [ ] XPoint Integration
+- [ ] Implement LoRaWAN
+- [ ] Documention!
+- [ ] Improve Install/Uninstall Scripts
+- [ ] Optimize File Structure
+- [ ] Implement Configuration Portal
+
+#
+
+### Tip Jar   
+**ѦRK [Ѧ]:** ```AZreeHxX23s4jttL3ML8n6A2aLrwHPfVGZ```  
+**DѦRK [DѦ]:** ```DHQ4Fjsyiop3qBR4otAjAu6cBHkgRELqGA```  
