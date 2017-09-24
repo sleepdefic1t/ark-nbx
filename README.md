@@ -7,8 +7,8 @@
 
 ### What is ArkBox
 
-ArkBox is an network box for communication and sharing files offline.  
-It is inspired by the spirit of pirate radio,  
+ArkBox is an network box for communication and sharing files.  
+Designed for security, it is inspired by the spirit of pirate radio,  
 early hackers (Stallman, Draper, Gosper, Woz, etc),  
 and--(per [*levy*](http://www.stevenlevy.com/))--the  **Hacker Ethic**  
 1. Access to computers—and anything which might teach you something about the way the world works—should be unlimited and total. Always yield to the Hands-on Imperative!
@@ -57,12 +57,17 @@ Address: **arkbox.lan**  
 
 # Preparation
 
-- Download **RASPBIAN STRETCH LITE** from https://www.raspberrypi.org/downloads/raspbian/
-- Or unzip and use [**arkbox-core.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.0/arkbox-core.img.zip) provided in [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases)   
+- Download **RASPBIAN STRETCH LITE** from https://www.raspberrypi.org/downloads/raspbian/   
 - Use [**Etcher**](https://etcher.io) or your favorite method to copy Raspbian to a micro-sd card.  
 - Make sure you are sharing/bridging your internet connection via usb-cable with your RPi.
 - Installation will take about 10-minutes.
 
+Or just unzip and use [**arkbox-vx.x.x.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.1/arkbox_v0.8.1.img.zip) provided in [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases)
+
+# Requirements
+- For non-Zero W Pi's, you will need a [**compatible**](http://elinux.org/RPi_USB_Wi-Fi_Adapters) USB-WiFi adapter.
+- If installing from Raspbian or another RPi distro, you will need Git to clone this repo.  
+  ```sudo apt-get install git```
 
 # Installation:   
 
@@ -73,11 +78,13 @@ default password is: ```raspberry```
 **Be sure to change this afterwards.**  
 
 
-- if using [**arkbox-core.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.0/arkbox-core.img.zip) from [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases)    
+- if using [**arkbox-vx.x.x.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.1/arkbox_v0.8.1.img.zip) from [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases).   
 ```ssh ark@arkbox.local```  
-default password is: ```arkbox```   
+default password is: ```arkbox```  
 **Be sure to change this afterwards.**  
-
+- Wifi Network: ```ArkBox - Welcome Aboard!```  
+- (Stop at step 2 **Expanding Your Filesystem**.  
+  No further install steps needed!)
 -----
 
 2. Expand your filesystem to use your whole microSD card:  
@@ -114,6 +121,7 @@ or manually via ```sudo reboot```
 7. Plug your RPi into a power source (ex: micro-usb power port).
 - **Your ArkBox will power on,  
 and the WiFi network "ArkBox - Welcome Aboard!" will be visible.**  
+- First boot can take 3-5 minutes depending on hardware(microSD speed, Pi-model, etc).
 
 -----
 
@@ -124,6 +132,20 @@ and the WiFi network "ArkBox - Welcome Aboard!" will be visible.**
 -----
 
 ## Troubleshooting:
+
+### **'ArkBox - Welcome Aboard!' WiFi network not showing up.**  
+There are many errors that can cause this.
+Try running ```sudo ./install.sh``` again.  
+Using another micro-usb cable or a 'class 10' microSD card can usually fix this as well.  
+
+-----
+
+### The Wifi signal drops/disappears every time I connect!
+This is usually caused by not getting enough power(mAh/Ah).
+Make sure to use a 5V >=1,000mAh/1Ah power supply. 2Ah or better if using NFC or additional hardware.
+If your power source meets those requirements, try another power source or USB-cable.
+
+-----
 
 ### **'Broken Pipe' / Timeout / Disconnect Errors**  
 If for any reason your RPi's connection fails/freezes during installation,  
@@ -136,29 +158,22 @@ to finish installation.
 
 -----
 
-### **'ArkBox - Welcome Aboard!' WiFi network not showing up.**  
-There are many errors that can cause this,
-running ```sudo ./install.sh``` again,  
-or trying another micro-usb cable or a 'class 10' microSD card  
-will usually fix this.  
-
------
-
 ### **The ArkBox time/date appears to be incorrect**
 This is correct, it is a security measure.
 
 #
 
-
 ## ToDo:
-- [ ] Implement Full Message/Discussion Board  
-- [ ] Add mesh/network/node connectivity
-- [ ] XPoint Integration
-- [ ] Implement LoRaWAN
-- [ ] Documention!
-- [ ] Improve Install/Uninstall Scripts
-- [ ] Optimize File Structure
+
+- [x] Improve Install/Uninstall Scripts
+- [x] Optimize File Structure
+- [x] Integrated RPi img.
 - [ ] Implement Configuration Portal
+- [ ] XPoint Integration
+- [ ] Add mesh/network/node connectivity
+- [ ] Implement IMS/WMS
+- [ ] Optimize Message/Discussion Board  
+- [ ] Documention!
 
 #
 
