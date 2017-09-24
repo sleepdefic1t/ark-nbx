@@ -71,19 +71,19 @@ Or just unzip and use [**arkbox-vx.x.x.img**](https://github.com/sleepdefic1t/ar
 
 # Installation:   
 
-1. Connect to your RPi in "headless" or SSH mode.  
-- if using Raspbian Stretch Lite  
-``` ssh pi@raspberrypi.local```  
-default password is: ```raspberry```  
+1. Connect to your RPi.   
+- if using Raspbian Stretch Lite: 
+SSH via usb [**headless-mode**](https://gist.github.com/gbaman/975e2db164b3ca2b51ae11e45e8fd40a#file-howtootgfast-md)``` ssh pi@raspberrypi.local```  
+default password: ```raspberry```  
 **Be sure to change this afterwards.**  
 
 
-- if using [**arkbox-vx.x.x.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.1/arkbox_v0.8.1.img.zip) from [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases).   
+- if using [**arkbox-vx.x.x.img**](https://github.com/sleepdefic1t/ark-nbx/releases/download/v0.8.1/arkbox_v0.8.1.img.zip) from [**/releases**](https://github.com/sleepdefic1t/ark-nbx/releases):  
+Wifi Network: ```ArkBox - Welcome Aboard!```  
 ```ssh ark@arkbox.local```  
-default password is: ```arkbox```  
-**Be sure to change this afterwards.**  
-- Wifi Network: ```ArkBox - Welcome Aboard!```  
-- (Stop at step 2 **Expanding Your Filesystem**.  
+default password: ```arkbox```  
+**Be sure to change this afterwards.**    
+(Stop at step 2 **Expanding Your Filesystem**.  
   No further install steps needed!)
 -----
 
