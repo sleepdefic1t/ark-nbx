@@ -168,6 +168,7 @@ This is correct, it is a security measure.
 - [x] Improve Install/Uninstall Scripts
 - [x] Optimize File Structure
 - [x] Integrated RPi img.
+- [ ] Migrate to/Test Arch-Linux OS base
 - [ ] Implement Configuration Portal
 - [ ] XPoint Integration
 - [ ] Add mesh/network/node connectivity
