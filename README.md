@@ -5,19 +5,6 @@
 
 -----
 
-## ** **NOTICE** **
-
-Vulnerabilities have been found in DNSMASQ.  
-Though not-yet production-ready;   
-due diligence suggests this notice appear until ArkBox is patched.
-
-> **Behind the Masq: Yet more DNS, and DHCP, vulnerabilities**    
-> https://security.googleblog.com/2017/10/behind-masq-yet-more-dns-and-dhcp.html
-
-@sleepdefic1t 2017.10.5
-
------
-
 ### What is ArkBox
 
 ArkBox is an network box for communication and sharing files.  
